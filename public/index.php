@@ -13,7 +13,7 @@
 namespace think;
 
 // 加载基础文件
-require __DIR__ . '/../thinkphp/base.php';
+require __DIR__ . '/../thinkphp/base.php';   //__DIR__的意思是以当前目录为基准的上一层目录里的thinkphp文件夹
 
 // 支持事先使用静态方法设置Request对象和Config对象
 
